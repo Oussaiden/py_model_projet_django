@@ -1,0 +1,49 @@
+# Environnements virtuels
+.venv/
+venv/
+
+# Dépendances
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Fichiers de log ou temporaires
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Configs locales
+*.sqlite3
+.env
+# Ne pas ignorer ces fichiers spécifiques :
+!.env.dev
+!.env.prod
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Firebase emulators
+firebase-debug.log
+firestore-debug.log
+database-debug.log
+
+# Fichiers compilés
+*.so
+*.pyd
+*.dll
+
+# Docker
+*.pid
+*.tar
+*.gz
+docker-compose.override.yml
+
+# Node/npm si tu as du frontend
+node_modules/
+dist/
+build/
+/firebase/firebase-export-1748750141429BJIAnA/
+/firebase/firebase-export-1748750508015OlAJce/
