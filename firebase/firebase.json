@@ -1,5 +1,4 @@
 {
-  "project": "local-dev",
   "emulators": {
     "auth": {
       "host": "0.0.0.0",
@@ -18,6 +17,9 @@
       "host": "0.0.0.0",
       "port": 4000
     }
+  },
+  "auth": {
+    "providers": ["password"]
   },
   "firestore": {
     "rules": "firestore.rules"

@@ -1,9 +1,8 @@
 /mon_projet/
 │
-├── .env.dev                       # Variables pour Docker dev
-├── .env.prod                      # Variables pour Cloud Run / Secret Manager
+├── .env.dev                      # Variables pour Docker dev
 ├── docker-compose.yml            # Pour Dev (Django + Postgres + Firebase Emulator)
-├── cloudbuild.yaml               # (optionnel) CI/CD pour déploiement GCP
+├── firebase.Dockerfile           # Pour la céation de Firebase    
 │
 ├── firebase/                     # Configs pour Firebase Emulator Suite
 │   ├── firebase.json

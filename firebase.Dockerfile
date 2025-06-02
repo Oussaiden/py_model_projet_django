@@ -10,7 +10,7 @@ RUN npm install -g firebase-tools
 WORKDIR /firebase
 
 # Copie uniquement le fichier de config Firebase
-COPY firebase/firebase.json ./
+COPY ./firebase /firebase
 
 # Point d’entrée
-CMD ["firebase", "emulators:start", "--only", "auth,firestore,database", "--project", "local-dev", "--import=/firebase_data", "--export-on-exit"]
+CMD ["firebase", "emulators:start", "--only", "auth,firestore,database", "--project", "local-dev", "--import=/firebase_data/data", "--export-on-exit"]
