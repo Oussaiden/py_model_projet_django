@@ -1,3 +1,18 @@
+Démarrage du projet
+
+- [] Mise en route du projet : docker-compose up 
+- [] Placez vous sous le repertoire backend  
+- [] Vérifier si le server Django est en service htttp://8080
+- [] Changer le nom 'le_projet' avec le nom de votre projet  
+- [] Modifier  dans manage.py 'le_projet' par le nom de votre projet
+      - os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'le_projet')  
+- [] Créer un superadmin  
+- []
+
+
+
+
+
 /mon_projet/
 │
 ├── .env.dev                      # Variables pour Docker dev

@@ -19,7 +19,6 @@ __pycache__/
 .env
 # Ne pas ignorer ces fichiers spécifiques :
 !.env.dev
-!.env.prod
 
 # VS Code / PyCharm
 .vscode/
@@ -45,5 +44,3 @@ docker-compose.override.yml
 node_modules/
 dist/
 build/
-/firebase/firebase-export-1748750141429BJIAnA/
-/firebase/firebase-export-1748750508015OlAJce/
